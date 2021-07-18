@@ -1,0 +1,132 @@
+*{
+    direction:ltr;
+  
+  }
+    .imgs{
+        height: 50px;
+        width: 60px;
+        position: relative;
+       
+        filter: saturate(3);  
+    }
+    
+    .aa:hover{
+     background-color:#FC6F04;
+    }
+    
+    .slider{
+    
+box-sizing: border-box;
+background-size: cover;
+    }
+    .bt{
+      background-color:#FC6F04 ;
+      color: white;
+      border-radius: .5rem;
+      padding: .3rem 4rem; margin-top: .1rem;
+      font-size: 1.2rem;
+     
+      border: none;
+    }
+   
+    .my-img{
+      border-radius: 10px;
+      
+      
+    }
+    .im{
+      height: 175px ;
+      width: 500px ;
+    }
+    .di{
+      margin-bottom: 20px;
+    }
+    .bu{
+      background-color: #FC6F04; color: white;
+       border-radius: 10px; 
+       padding: 5px 30px; 
+       border: none;
+       
+    }
+    .checked {
+color: orange;
+}
+.ca{
+
+height: 358px;
+}
+.rasm{
+height: 190px;
+}
+.bttn, .btnn {
+
+background-color:#FC6F04; color: white;
+       border-radius: 10px; 
+       padding: 5px 15px; 
+       border: none;
+       text-decoration: none;
+}
+.bttn:hover, .btnn:hover , .bu:hover ,  .bt:hover , .bbtn:hover{
+color: black;
+ text-decoration: none;
+}
+.iimg{
+border-radius: 50%;
+border: 10px solid #FC6F04;
+height:150px ;
+width:150px ;
+}
+.order .row{
+   padding: 20px;
+   box-shadow: 0 50px 10px rgba(0,0,0, .1);
+   background: #fff;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   border-radius: 50px;
+}
+.order .row .imgg{
+  flex: 1 1 300px;
+}
+.order .row .alrasm{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.order .row .for{
+  flex: 10 10 500px;
+  padding: 10px;
+}
+.order .row .for .inputbox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.order .row .for .inputbox input , .order .row .for textarea {
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 17px;
+  color: #333;
+  text-transform: none;
+  border: 1px solid rgba(0,0,0, .3);
+  border-radius: 10px;
+  width: 49%;
+  
+}
+.order .row .for textarea{
+   width:100%;
+   resize: none;
+   height: 150px;
+
+}
+.created{
+  margin-top: 10px;
+  color: #333;
+  
+}
+.container{
+  color: cadetblue;
+   background-color:ghostwhite;
+}
